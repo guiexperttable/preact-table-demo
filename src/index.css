@@ -73,6 +73,10 @@ body > div {
   text-align: left;
 }
 
+.ge-padding-property-checkbox {
+  padding-left: 0;
+}
+
 .ge-table-col-tree.ge-table-tree-deep-0 {
   padding-left: 16px;
 }
