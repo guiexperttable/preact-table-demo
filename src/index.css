@@ -184,7 +184,6 @@ body > div {
 
 
   --ge-table-border : #ccc;
-  --ge-table-selected-range-bg: rgba(0, 140, 255, 0.2);
 
   --ge-table-row-odd-bg: transparent;
   --ge-table-row-even-bg: transparent;
@@ -282,7 +281,6 @@ body > div {
 
 
 .ge-table-border { background-color: var(--ge-table-border); }
-.ge-table-selected-range {background-color: var(--ge-table-selected-range-bg); }
 .ge-table-row-odd {background-color: var(--ge-table-row-odd-bg); }
 .ge-table-row-even {background-color: var(--ge-table-row-even-bg); }
 .ge-table-column-odd {background-color: var(--ge-table-column-odd-bg); }
