@@ -19,7 +19,7 @@ function App() {
     rows,
     columnDefs,
     tableOptions,
-    fixedLeftColumnCount: 0
+    fixedLeftColumnCount: 1
   });
 
   function tableReady(api: TableApi) {
