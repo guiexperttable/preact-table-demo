@@ -1,4 +1,4 @@
-import { ComponentRendererWrapper, PreactTable } from "@guiexpert/preact-table";
+import { ComponentRendererWrapper, GuiexpertTable } from "@guiexpert/preact-table";
 import {
   applyBodyRenderer,
   createColumnDefs,
@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <PreactTable
+    <GuiexpertTable
       tableOptions={tableOptions}
       tableModel={tableModel}
       mouseClicked={console.info}
