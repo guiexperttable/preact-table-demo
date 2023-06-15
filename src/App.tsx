@@ -6,7 +6,7 @@ import {
   createTableRows,
   SimplePersonIf
 } from "@guiexpert/demo-table-models";
-import { ColumnDefIf, TableApi, TableModelFactory } from "@guiexpert/table";
+import { ColumnDefIf, TableApi, TreeFactory } from "@guiexpert/table";
 import GenderRendererComponent from "./GenderRendererComponent";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   const rows: SimplePersonIf[] = createTableRows();
   const columnDefs: ColumnDefIf[] = createColumnDefs();
   applyBodyRenderer(columnDefs[2], new ComponentRendererWrapper(GenderRendererComponent));
-  const tableModel = TableModelFactory.buildByTypedRowsParam({
+  const tableModel = TreeFactory.buildByTypedRowsParam({
     rows,
     columnDefs,
     tableOptions,
